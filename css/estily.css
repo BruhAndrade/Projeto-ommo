@@ -78,63 +78,39 @@ main section.receitas-principais .container {
 main section.receitas-principais h2 {
     color: #FFA000;
     text-align: center;
-    font-weight: bold;
-    /* grossura da letra */
-    font-size: 55px;
-    /* tamanho da letra */
-    text-transform: lowercase;
-    /* letras minusculas */
+    font-weight: bold;/* grossura da letra */
+    font-size: 55px;/* tamanho da letra */
+    text-transform: lowercase;/* letras minusculas */
 }
 .lista-receitas {
-    display: flex;
-    /* ativando flexbox */
-    justify-content: space-between;
-    /* espaçamento igual ao redor dos elementos (horizontal) */
-    align-items: flex-start;
-    /* todos os elementos alinhados ao topo */
-    flex-wrap: wrap;
-    /* permite que aconteça a quebra de linha */
+    display: flex;/* ativando flexbox */
+    justify-content: space-between; /* espaçamento igual ao redor dos elementos (horizontal) */
+    align-items: flex-start;/* todos os elementos alinhados ao topo */
+    flex-wrap: wrap; /* permite que aconteça a quebra de linha */
 }
 .lista-receitas article {
-    /* border: 1px solid orange; */
-    /* borda somente para teste */
-    width: 345px;
-    /* largura do article */
-    text-align: center;
-    /* centralizando tudo no article */
-    margin-bottom: 60px;
-    /* espaçamento inferior */
+    width: 345px;/* largura do article */
+    text-align: center;/* centralizando tudo no article */
+    margin-bottom: 60px;/* espaçamento inferior */
 }
 .lista-receitas article .thumb {
-    width: 100%;
-    /* imagem vai ocupar 100% de largura do article */
-    height: 280px;
-    /* altura do thumb */
-    background-color: orange;
-    /* cor de fundo somente para teste */
-    background-size: cover;
-    /* imagem cobre todo o elemento */
-    background-repeat: no-repeat;
-    /* imagem não se repete */
-    background-position: center;
-    /* imagem centralizada */
+    width: 100%;/* imagem vai ocupar 100% de largura do article */
+    height: 280px; /* altura do thumb */
+    background-color: orange;/* cor de fundo somente para teste */
+    background-size: cover;/* imagem cobre todo o elemento */
+    background-repeat: no-repeat;/* imagem não se repete */
+    background-position: center;/* imagem centralizada */
 }
 .lista-receitas article h3 {
     font-size: 26px;
 }
 .lista-receitas article a {
-    background-color: #176902;
-    /* cor de fundo */
-    color: #FFF;
-    /* cor do texto */
-    font-size: 24px;
-    /* tamanho da letra */
-    font-weight: bold;
-    /* grossura da letra */
-    padding: 5px 25px;
-    /* espaçamento interno do botão */
-    text-decoration: none;
-    /* tirar sublinhado do link */
+    background-color: #176902;/* cor de fundo */
+    color: #FFF;/* cor do texto */
+    font-size: 24px;/* tamanho da letra */
+    font-weight: bold;/* grossura da letra */
+    padding: 5px 25px;/* espaçamento interno do botão */
+    text-decoration: none; /* tirar sublinhado do link */
 }
 section.banner-secundario {
     background-image: url(../imagens/foto-avo.png);
@@ -146,30 +122,28 @@ section.banner-secundario .container {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    /* itens em coluna */
-    justify-content: center;
-    /* alinhamento centralizado na vertical */
+    flex-direction: column;/* itens em coluna */
+    justify-content: center;/* alinhamento centralizado na vertical */
 }
 section.banner-secundario .container h2 {
-    font-size: 62px;
-    color: #fff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 62px;/*definindo tamanho da fonte*/
+    color: #fff;/*defindo cor*/
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);/*colocando sombriamento no texto*/
 }
 section.banner-secundario .container p {
-    color: #fff;
-    font-size: 24px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 450px;
+    color: #fff;/*definindo cor*/
+    font-size: 24px;/*definindo tamanho da fonte*/
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);/*colocando sombriamento no texto */
+    width: 450px;/*largura*/
 }
 footer {
-    background-color: #FFC107;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
+    background-color: #FFC107;/*adicionando cor de fundo*/
+    color: #fff;/*definindo cor*/
+    font-weight: 700;/*colocando intensidade na fonte*/
+    font-size: 18px;/*definndo tamanho da fonte*/
 }
 footer .container {
-    width: 1200px;
+    width: 1200px;/*largura*/
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
@@ -181,8 +155,7 @@ footer p {
 }
 /* Página 2: Todas as Receitas */
 main section.todas-receitas .container {
-    min-height: 600px;
-    /* altura minima */
+    min-height: 600px;/* altura minima */
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
@@ -209,8 +182,7 @@ main section.todas-receitas h2 {
 small.tag {
     display: inline-block;
     border: 1px solid #176902;
-    border-radius: 47px;
-    /* bordas arredondadas */
+    border-radius: 47px;/* bordas arredondadas */
     color: #176902;
     padding: 5px 10px;
     margin: 10px 0;
